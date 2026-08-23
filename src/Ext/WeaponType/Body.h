@@ -120,7 +120,6 @@ public:
 	Nullable<bool> CylinderRangefinding;
 
 	Valueable<bool> IvanBomb_Detonate;
-	
 	WeaponTypeExt(WeaponTypeClass* OwnerObject) : AbstractTypeExt(OwnerObject)
 		, DiskLaser_Radius { DiskLaserClass::Radius }
 		, ProjectileRange { Leptons(100000) }
